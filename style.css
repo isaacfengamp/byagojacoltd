@@ -257,12 +257,18 @@ a:hover {
   z-index: -2;
 }
 
+
 @media screen and (max-width: 860px) {
   .we-are-block {
     height: 2200px;
   }
 }
 
+@media screen and (min-width: 700px) {
+  .we-are-block {
+    padding-top: 80px;
+  }
+}
 @media screen and (max-width: 500px) {
   .we-are-block {
     height: 2300px;
@@ -317,6 +323,15 @@ a:hover {
     left: -220px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about-us-image img {
+    position: absolute;
+    left: -220px;
+    z-index: -3;
+  }
+}
+
 
 .about-us-info {
   display: flex;
@@ -386,6 +401,14 @@ a:hover {
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+  .about-us-info h2 {
+    position: relative;
+    top: -250px;
+    z-index: 1;
+    color: blue;
+  }
+}
 
 .about-us-info p {
   color: white;
@@ -399,7 +422,13 @@ a:hover {
     text-align: center;
   }
 }
-
+@media screen and (max-width: 500px) {
+  .about-us-info p {
+    position: relative;
+    top: -150px;
+    z-index: 1;
+  }
+}
 .about-us-info a {
   background-color: white;
   color: #0c4c91;
@@ -410,7 +439,13 @@ a:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   z-index: -2;
 }
-
+@media screen and (max-width: 500px) {
+  .about-us-info a {
+    position: relative;
+    top: -120px;
+    z-index: 1;
+  }
+}
 .about-us-info a:hover {
   background: #404140;
   color: white;
@@ -651,9 +686,16 @@ p {
     max-width: 50%;
   }
 }
+@media screen and (min-width: 700px) {
+  .serv-team-header {
+    margin-top: 80px;
+  }
+  
+}
 @media screen and (min-width: 992px) {
   section {
     padding: 1em 3em;
+    
   }
   .column {
     flex: 0 0 33.33%;
@@ -915,6 +957,23 @@ p {
   }
 }
 /* End Contact Us */
+/* features */
+.social-links{
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  color: #007bff;
+  font-size: 25px;
+}
+.social-links i{
+  color: #007bff;
+}
+.social-links:hover{
+  color: orange;
+}
+/* end features */
 
 /* Footer */
 footer {
