@@ -705,7 +705,90 @@ p {
 
 /* End Service */
 /* begin mission section */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 
+
+.mission-main{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease-in .1s;
+}
+
+.mission {
+  background-color: #E2E2E2;
+  text-align: center;
+}
+
+.card-about {
+  display: inline-block;
+  width: 230px;
+  margin: 50px 8px;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 30px 20px 40px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(#2D3E50, .3);
+  color: #2D3E50;
+
+  .fa {
+    width: 100px;
+    height: 100px;
+    background-color: #E2E2E2;
+    padding: 22px 0;
+    border-radius: 50%;
+    box-shadow: inset 0 1px 3px rgba(#2D3E50, .3);
+    text-shadow: 0 1px 3px rgba(#2D3E50, .3);
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  
+  .title {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 3px 10px rgba(#2D3E50, .3);
+    
+    .fa {
+      box-shadow: inset 0 3px 10px rgba(#2D3E50, .3);
+      text-shadow: 0 3px 2px rgba(#2D3E50, .3);
+    }
+  }
+}
+@media (max-width:500px){
+  .card-about {
+    display: inline-block;
+    width: 90vw;
+    margin: 20px 8px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 15px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(#2D3E50, .3);
+    color: #2D3E50;
+  }
+}
+@media (max-width:500px){
+  .ico i {
+    width: 50px;
+    height: 50px;
+    background-color: #E2E2E2;
+    padding: 12px 0;
+    border-radius: 50%;
+    box-shadow: inset 0 1px 3px rgba(#2D3E50, .3);
+    text-shadow: 0 1px 3px rgba(#2D3E50, .3);
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+}
 /* end Mission Section */
 
  /* Basic styling for the team card */
