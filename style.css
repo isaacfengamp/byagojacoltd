@@ -932,7 +932,7 @@ footer {
       
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .footer{
       margin-top: 900px;
       display: flex;
