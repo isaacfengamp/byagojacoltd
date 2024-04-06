@@ -706,96 +706,7 @@ p {
 /* End Service */
 /* begin mission section */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Bitter);
-
-
-.deck{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  padding-top: 30px;
-}
-@media(max-width:500px){
-  .deck{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    padding-top: 30px;
-  }
-}
-.card-space{
-  width: 28vw;
-}
-@media(max-width:500px){
-  .card-space{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    padding-top: 30px;
-  }
-}
-.card-space:hover .card{
-  transform: rotateY(-180deg);
-}
-
-.card{
-  border-radius: 10px;
-  height: 300px;
-  margin: 10px;
-  width: 25vw;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: all  ease;
-  & h1{
-    margin-top: 5px;
-    text-align: center;
-  }
-  & p{
-    margin-top: 0px;
-  }
-}
-@media(max-width:500px){
-  .card{
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-  }
-}
-.card h1{
-  justify-content: center;
-  text-align: center;
-}
-.face{
-  border-radius: 10px;
-  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
-  & h1{
-    padding: 0;
-  }
-  background-color: blue;
-  padding: 20px;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  &.front{
-    text-align: center;
-    z-index: 10;
-    backface-visibility: hidden;
-    transform: rotateY(0deg);
-    
-  }
-  &.back{
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-  }
-}
-
-
-/* end Mission SEction */
+/* end Mission Section */
 
  /* Basic styling for the team card */
  .team-card {
@@ -892,7 +803,6 @@ p {
     color: #FFF;
     font-weight: bold;
     font-size: 1.5em;
-    margin-top: 40px;
     margin-bottom: 20px;
   }
 }
