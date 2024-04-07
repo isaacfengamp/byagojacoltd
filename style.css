@@ -1117,7 +1117,7 @@ p {
   #features-service {
     padding: 0;
   
-    margin-top: 1200px;
+    margin-top: 1500px;
     
     background: linear-gradient(#ffffff 50%, #2c7bfe 50%,rgb(189, 194, 189), blue);
   }
@@ -1349,6 +1349,7 @@ p {
 footer {
   text-align: center;
   margin-top: 50px;
+  z-index: 0;
 }
 @media (max-width: 500px) {
   .footer{
