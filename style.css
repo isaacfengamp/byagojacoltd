@@ -887,7 +887,11 @@ p {
   width: 100%;
   background-color: rgba(0,0,0,0.8);
 }
-
+@media(max-width: 500px){
+  .body{
+    margin-top: 50px;
+  }
+}
 .section-c {
   position: relative;
   z-index: 3;
@@ -1103,7 +1107,10 @@ p {
 @media(max-width: 500px){
   #features-service {
     padding: 0;
-    background: linear-gradient(rgb(223, 216, 216),rgb(189, 194, 189), blue);
+  
+    margin-top: 1200px;
+    
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%,rgb(189, 194, 189), blue);
   }
 }
 .container-service {
@@ -1118,11 +1125,12 @@ p {
   display: flex;
   margin-bottom: 30px;
 }
-@media (max-width:500px){
-  .nav-service .nav-tabs {
+@media (max-width: 500px){
+  .nav-service li {
     list-style: none;
     padding: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 5px;
   }
@@ -1140,7 +1148,9 @@ p {
 }
 @media (max-width: 500px){
   .nav-item button{
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 0.5rem;
     background-color: blue;
     border: none;
     color: wheat;
@@ -1219,7 +1229,7 @@ p {
       align-items: center;
       text-align: justify;
       font-size: 16px;
-      color: white;
+      color: black;
     }
   }
 }
@@ -1237,6 +1247,8 @@ p {
     width: 100%;
     height: 30vh;
     border-radius: 6px;
+    margin: 0;
+    padding: 0;
   }
 }
 .tab-pane h3 {
