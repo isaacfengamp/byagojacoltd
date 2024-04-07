@@ -9,7 +9,32 @@ window.addEventListener('load', function() {
 	}, 2000); // 3000 milliseconds = 3 seconds
   });
   
-
+// JavaScript for Features Service Section
+document.addEventListener("DOMContentLoaded", function () {
+	const tabLinks = document.querySelectorAll('.nav-link-service');
+  
+	tabLinks.forEach(function (link) {
+	  link.addEventListener('click', function () {
+		const targetId = this.getAttribute('data-bs-target');
+		const targetTab = document.querySelector(targetId);
+  
+		// Hide all tabs
+		document.querySelectorAll('.tab-pane').forEach(function (tab) {
+		  tab.classList.remove('active');
+		});
+  
+		// Remove active class from all tab links
+		tabLinks.forEach(function (link) {
+		  link.classList.remove('active');
+		});
+  
+		// Show target tab
+		targetTab.classList.add('active');
+		this.classList.add('active');
+	  });
+	});
+  });
+  
 
 const nav = document.querySelector(".nav"),
   searchIcon = document.querySelector("#searchIcon"),
