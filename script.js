@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
 	  var content = document.getElementById('content');
 	  preloader.style.display = 'none';
 	  content.style.display = 'block';
-	}, 2000); // 3000 milliseconds = 3 seconds
+	}, 1000); // 1000 milliseconds = 1 seconds
   });
   
 // JavaScript for Features Service Section
