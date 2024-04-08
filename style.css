@@ -1428,7 +1428,7 @@ p {
 footer {
   text-align: center;
   margin-top: 50px;
-  z-index: 0;
+  z-index: -4;
 }
 @media (max-width: 500px) {
   .footer{
