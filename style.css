@@ -452,7 +452,7 @@ a:hover {
 
 @media screen and (max-width: 747px) {
   .about-us-info {
-    height: 65%;
+    height: 55%;
   }
 }
 
@@ -472,6 +472,7 @@ a:hover {
   .about-us-info h2 {
     position: relative;
     top: -250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 0;
     color: blue;
   }
@@ -537,6 +538,7 @@ a:hover {
     position: relative;
     top: -120px;
     z-index: 1;
+    margin: auto;
   }
 }
 @media screen and (max-width: 450px) {
@@ -553,6 +555,7 @@ a:hover {
     position: relative;
     top: -130px;
     width: 150px;
+    margin: auto;
     padding: 10px 0 10px 0;
     z-index: 1;
   }
