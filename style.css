@@ -397,7 +397,7 @@ a:hover {
     position: absolute;
     left: -220px;
     z-index: -3;
-    height: 60vh;
+    height: 50vh;
     width: 500px;
   }
 }
@@ -447,17 +447,21 @@ a:hover {
     margin: 0px 0px 0px 0px !important;
     padding: 0px 20px 0px 20px !important;
     width: 100%;
-    height: 55%;
+    height: 45%;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 747px) {
   .about-us-info {
-    height: 55%;
+    height: 45%;
   }
 }
-
+@media screen and (max-width: 500px) {
+  .about-us-info {
+    height: 30%;
+  }
+}
 .about-us-info h2 {
   color: white;
   font-size: 40pt;
@@ -473,7 +477,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .about-us-info h2 {
     position: relative;
-    top: -250px;
+    top: -300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 0;
     color: blue;
@@ -482,7 +486,7 @@ a:hover {
 @media screen and (max-width: 450px) {
   .about-us-info h2 {
     position: relative;
-    top: -270px;
+    top: -500px;
     z-index: 1;
     color: blue;
   }
@@ -490,7 +494,7 @@ a:hover {
 @media screen and (max-width: 350px) {
   .about-us-info h2 {
     position: relative;
-    top: -270px;
+    top: -500px;
     z-index: 1;
     color: blue;
   }
@@ -510,7 +514,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .about-us-info p {
     position: relative;
-    top: -150px;
+    top: -400px;
     z-index: 1;
     font-size: 14pt;
   }
@@ -518,7 +522,7 @@ a:hover {
 @media screen and (max-width: 350px) {
   .about-us-info p {
     position: relative;
-    top: -180px;
+    top: -300px;
     align-content: center;
     justify-content: center;
     z-index: 1;
@@ -538,7 +542,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .about-us-info a {
     position: relative;
-    top: -120px;
+    top: -180px;
     z-index: 1;
     margin: auto;
   }
@@ -546,7 +550,7 @@ a:hover {
 @media screen and (max-width: 450px) {
   .about-us-info a {
     position: relative;
-    top: -130px;
+    top: -250px;
     width: 150px;
     padding: 10px 0 10px 0;
     z-index: 1;
@@ -555,7 +559,7 @@ a:hover {
 @media screen and (max-width: 350px) {
   .about-us-info a {
     position: relative;
-    top: -130px;
+    top: -300px;
     width: 150px;
     margin: auto;
     padding: 10px 0 10px 0;
@@ -695,6 +699,12 @@ a:hover {
 @media screen and (max-width: 860px) {
   .history-info p {
     text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .history-info p {
+    text-align: center;
+    font-size: 16px;
   }
 }
 
@@ -1205,7 +1215,7 @@ p {
   
     margin-top: 1500px;
     
-    background: linear-gradient(#ffffff 50%, #2c7bfe 50%,rgb(189, 194, 189), blue);
+    background: linear-gradient(#ffffff 50%,rgb(189, 194, 189), blue,rgb(41, 43, 41));
   }
 }
 .container-service {
@@ -1381,10 +1391,10 @@ p {
   .row-service img{
     align-items: center;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     height: 30vh;
-    border-radius: 6px;
-    margin: 0 0;
+    border-radius: 2px;
+    margin-left: 20px;
     padding: 0;
   }
 }
@@ -1392,10 +1402,10 @@ p {
   .row-service img{
     align-items: center;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     border-radius: 2px;
-    margin: 0 0;
+    margin-left: 20px;
     padding: 0;
   }
 }
