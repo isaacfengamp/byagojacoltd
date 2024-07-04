@@ -193,7 +193,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: -1; 
-  opacity: 70%;
+  
 }
 
 .hero::before {
@@ -229,7 +229,7 @@ a {
 .hero-subtitle {
   font-size: 1.5em;
   margin-top: -5;
-  color: #0056b3;
+  color: #fdfdfd;
   margin-bottom: 30px;
   animation: fadeInUp 1s ease-in-out 0.5s;
 }
