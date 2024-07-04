@@ -1215,7 +1215,7 @@ p {
   
     margin-top: 1500px;
     
-    background: linear-gradient(#ffffff 50%,rgb(189, 194, 189), blue,rgb(41, 43, 41));
+    background: linear-gradient(#ffffff 50%,rgb(189, 194, 189),rgb(209, 212, 209));
   }
 }
 .container-service {
@@ -1462,12 +1462,14 @@ footer {
 }
 @media (max-width: 420px) {
   .footer{
-      margin-top: 900px;
+      margin-top: 1680px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      box-sizing: border-box;
+      border: none;
       justify-content: space-between;
-    
+    background: linear-gradient(#f0faff,#656c72,#111314,#111518,black);
       
   }
 }
