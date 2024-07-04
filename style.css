@@ -193,6 +193,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: -1; 
+  opacity: 70%;
 }
 
 .hero::before {
@@ -390,6 +391,7 @@ a:hover {
     position: absolute;
     left: -220px;
     z-index: 0;
+    display: none;
   }
 }
 @media screen and (max-width: 350px) {
@@ -399,6 +401,7 @@ a:hover {
     z-index: -3;
     height: 50vh;
     width: 500px;
+    display: none;
   }
 }
 
@@ -459,7 +462,7 @@ a:hover {
 }
 @media screen and (max-width: 500px) {
   .about-us-info {
-    height: 30%;
+    height: 20%;
   }
 }
 .about-us-info h2 {
@@ -477,26 +480,27 @@ a:hover {
 @media screen and (max-width: 500px) {
   .about-us-info h2 {
     position: relative;
-    top: -300px;
+    top: -350px;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 0;
-    color: blue;
+    color: white;
   }
 }
 @media screen and (max-width: 450px) {
   .about-us-info h2 {
     position: relative;
-    top: -500px;
+    top: -700px;
     z-index: 1;
-    color: blue;
+    color: white;
   }
 }
 @media screen and (max-width: 350px) {
   .about-us-info h2 {
     position: relative;
-    top: -500px;
+    top: -700px;
     z-index: 1;
-    color: blue;
+    color: white;
   }
 }
 .about-us-info p {
@@ -514,7 +518,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .about-us-info p {
     position: relative;
-    top: -400px;
+    top: -600px;
     z-index: 1;
     font-size: 14pt;
   }
@@ -522,7 +526,7 @@ a:hover {
 @media screen and (max-width: 350px) {
   .about-us-info p {
     position: relative;
-    top: -300px;
+    top: -600px;
     align-content: center;
     justify-content: center;
     z-index: 1;
@@ -542,7 +546,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .about-us-info a {
     position: relative;
-    top: -180px;
+    top: -280px;
     z-index: 1;
     margin: auto;
   }
@@ -550,7 +554,7 @@ a:hover {
 @media screen and (max-width: 450px) {
   .about-us-info a {
     position: relative;
-    top: -250px;
+    top: -500px;
     width: 150px;
     padding: 10px 0 10px 0;
     z-index: 1;
@@ -559,7 +563,7 @@ a:hover {
 @media screen and (max-width: 350px) {
   .about-us-info a {
     position: relative;
-    top: -300px;
+    top: -550px;
     width: 150px;
     margin: auto;
     padding: 10px 0 10px 0;
